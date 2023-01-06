@@ -8,3 +8,18 @@ C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF
 C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Debug\AlbetApp.exe.config
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Debug\AlbetApp.exe
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Debug\AlbetApp.pdb
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.exe
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.pdb
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Debug\ESC-POS-USB-NET.dll
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.g.resources
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Albet.resources

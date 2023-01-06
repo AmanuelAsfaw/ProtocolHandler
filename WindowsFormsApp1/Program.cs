@@ -2,25 +2,92 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using ESC_POS_USB_NET.Printer;
+using System.Drawing;
+using ESC_POS_USB_NET.Enums;
+using Application = System.Windows.Forms.Application;
 
 namespace WindowsFormsApp1
 {
     internal static class Program
     {
+        public static Albet form1 = new Albet();
+        public static string protocol = "albetprt:";
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            //RegisterMyProtocol("");
-            Application.SetCompatibleTextRenderingDefault(false);
+            if(args.Length == 0)
+            {
 
-            string[] args = Environment.GetCommandLineArgs();
-            Application.Run(new Form1(args));
+                Application.Run(form1);
+            }
+            else
+            {
+                //string url = "albetprtcl:game=123&ticket=12347686397486389&stack=10&minpay=123&maxpay=567&date=Jan 12 2022&casher=user1&branch=Jemo1&odd=3.5" +
+                //"?12&13&14&15&17";
+                string url = args[0];
+                string params_url = url.Replace(protocol, "");
+                string[] params_ = params_url.Split(Char.Parse("?"));
+                string[] result = params_[0].Split(Char.Parse("&"));
+                string[] selectednumbers = params_[1].Split(Char.Parse("&"));
+
+                if (result.Length > 1)
+                {
+                    var arguments = new
+                    {
+                        GameNumber = result[0].Replace("game=", ""),
+                        TicketNumber = result[1].Replace("ticket=", ""),
+                        Stack = result[2].Replace("stack=", ""),
+                        SelectedNumbers = String.Join(" ", selectednumbers),
+                        MinPayout = result[3].Replace("minpay=", ""),
+                        MaxPayout = result[4].Replace("maxpay=", ""),
+                        Date = result[5].Replace("date=", ""),
+                        Casher = result[6].Replace("casher=", ""),
+                        Branch = result[7].Replace("branch=", ""),
+                        Odd = result[8].Replace("odd=", ""),
+                    };
+                    Printer printer = new Printer("POS Printer 80250 Series", "UTF-8");
+                    System.Drawing.Image img = System.Drawing.Image.FromFile("C:\\Users\\PROBOOK\\Documents\\Visual Studio 2022\\Projects\\ProtocolHandler\\WindowsFormsApp1\\albets.png");
+                    Bitmap image = new Bitmap(Bitmap.FromFile("C:\\Users\\PROBOOK\\Documents\\Visual Studio 2022\\Projects\\ProtocolHandler\\WindowsFormsApp1\\Icon.bmp"));
+                    printer.AlignLeft();
+                    printer.DoubleWidth3();
+                    printer.BoldMode("ALbet");
+                    printer.NormalWidth();
+                    //printer.Image(image);
+                    printer.AlignRight();
+                    printer.Append("Branch : " + arguments.Branch);
+                    printer.Append("Casher : " + arguments.Casher);
+                    printer.Append(arguments.Date);
+                    printer.AlignLeft();
+                    printer.Separator();
+                    printer.Append("Game : " + arguments.GameNumber);
+                    printer.Append("Ticket : " + arguments.TicketNumber);
+                    printer.Append(arguments.SelectedNumbers + "  x" + arguments.Odd);
+                    printer.AlignCenter();
+                    printer.Separator();
+                    printer.Append("STACK --- " + arguments.GameNumber + " ETB");
+                    printer.Append("MIN PAYOUT  ".PadRight(17) + (arguments.MinPayout + " ETB").PadLeft(17));
+                    printer.Append("MAX PAYOUT  ".PadRight(17) + (arguments.MaxPayout + " ETB").PadLeft(17));
+                    printer.Separator();
+                    printer.Code128(arguments.TicketNumber);
+                    printer.Append("");
+                    printer.Separator();
+                    printer.Append("Under 21s are strictly forbidden!");
+                    printer.Append("Terms and Conditions Apply");
+
+                    printer.FullPaperCut();
+                    printer.PrintDocument();
+                    printer.FullPaperCut();
+                    printer.PartialPaperCut();
+                }
+            }
         }
         static void RegisterMyProtocol(string myAppPath)  //myAppPath = full path to your application
         {

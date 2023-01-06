@@ -3,30 +3,41 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.Properties;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Albet : Form
     {
         private string[] argsList;
         private string str_text = "";
-        public Form1(string[] args)
+        public bool isShow = false;
+        public Albet(string[] args = null)
         {
-            argsList = args;
+            if(args != null)
+            {
+                argsList = args;
+            }
+            else
+            {
+                argsList= new string[0];
+            }
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            foreach(string arg in argsList)
-            {
-                str_text = str_text + arg;
-            }
-            label1.Text = str_text;
+
         }
+        public  void changeText(string text)
+        {
+
+        }
+
     }
 }

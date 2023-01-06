@@ -9,3 +9,14 @@ C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\Window
 C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
 C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
 C:\Users\win10\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Release\AlbetApp.exe.config
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Release\AlbetApp.exe
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\bin\Release\AlbetApp.pdb
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\AlbetApp.exe
+C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Release\AlbetApp.pdb
