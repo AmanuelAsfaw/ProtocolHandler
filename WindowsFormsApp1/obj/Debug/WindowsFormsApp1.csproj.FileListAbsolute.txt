@@ -23,3 +23,19 @@ C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFo
 C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.g.resources
 C:\Users\PROBOOK\Documents\Visual Studio 2022\Projects\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Albet.resources
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\bin\Debug\AlbetApp.exe.config
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\bin\Debug\AlbetApp.exe
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\bin\Debug\AlbetApp.pdb
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\bin\Debug\ESC-POS-USB-NET.dll
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\bin\Debug\System.Drawing.Common.dll
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.g.resources
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Albet.resources
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.exe
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\AlbetApp.pdb
+C:\Users\win10\Documents\ASP.NET\ProtocolHandler\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources

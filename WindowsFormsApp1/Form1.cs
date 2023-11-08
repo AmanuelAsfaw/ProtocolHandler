@@ -39,5 +39,15 @@ namespace WindowsFormsApp1
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AlbetSettings.Default.printer_name = textBox1.Text.ToString();
+            AlbetSettings.Default.Save();
+        }
+
+        private void getButton_Click(object sender, EventArgs e)
+        {
+            label1.Text = AlbetSettings.Default.printer_name.ToString();
+        }
     }
 }
